@@ -1,0 +1,197 @@
+<html lang='en'>
+<head>
+	<title>G'Day Australia</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel='stylesheet' href='assets/css/animate.css'>
+	<link rel='stylesheet' href='assets/css/food.css'>
+	<link rel='stylesheet' href='assets/css/main.css'>
+	<link rel='stylesheet' href='assets/css/aos.css'>
+	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width:415px)"
+　　　　 href="assets/css/tinyEvent.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src='assets/js/tween.js'></script>
+	<script src='assets/js/vue_2.2.4.js'></script>
+	<script src='assets/js/prototype.js'></script>
+	<script src='assets/js/loading.js'></script>
+	<script src='assets/js/aos.js'></script>
+	<script type="text/javascript">
+		window.onload=function(){
+			AOS.init();
+					var menu = "close";
+  $(".hamburger-menu").click(function() {
+
+    if (menu === "close") {
+      $(this).parent().next(".mobile-nav").css("transform", "translate(0%, 0)");
+      menu = "open";
+      $(".hamburger-menu").toggleClass('open');
+    }else {
+      $(this).parent().next(".mobile-nav").css("transform", "translate(100%, 0)");
+      menu = "close";
+      $(".hamburger-menu").toggleClass('open');
+    }
+  });
+		}
+	</script>
+</head>
+<body class='docs'>
+	<div class='page_container'>
+	<div id='header' class='sideHeader'>
+		<div style='font-weight:bold;margin-top:-15px;margin-left:-30px;font-family: cute;max-width: 200px'>
+			<a href="Australia.html" style='text-decoration: none;margin-top:-20px;display: block;'><p style="color:#4d4d4d;">G'Day</p><p style="margin-top: -1em;color:#4d4d4d;">Australia</p></a>
+		</div>
+		<ul class='nav' style="color: black;margin-top:-55px;font-weight: 500">
+			<li><a href='Australia.html' class='nav-link' style='color:black'>Home</a></li>
+				<li><a href='translate.html' class='nav-link' style='color:black'>Slangs</a>
+					<li><a href='events.html' class='nav-link' style='color:black'>Events</a>
+					<li><a href='prepare.html' class='nav-link' style='color:black'>Preparation</a></li>
+					<li><a href="doanddonts.html" class='nav-link' style='color:black'>do's and don'ts</a></li>
+					<li><a href='rental.html' class='nav-link' style='color:black'>Renting </a>
+					
+					<li><a href='food.html' class='nav-link nav_active' style='color:black'>Food</a>
+				
+	<!-- 		<li class='resource'>
+				<a class='nav-link'>Resource</a>
+				<span class='arrow'></span>
+				<ul class='nav-dropdown'>
+					<li><a href="#"></a>
+					<li><a href='#'></a>
+				</ul>
+			</li>
+			<li class='contact'>
+				<a class='nav-link'>Contact us</a>
+			</li> -->
+		</ul>
+	</div>
+	<div class='tinyheader'>
+		<div id='header'>
+		<div class = "headerlogo" style='font-weight:bold;font-family: cute'>
+			<p>G'Day</p><p>Australia</p>
+		</div>
+		<div class="u-wrapper">
+			   <div class="mobile">
+						<header class="header">
+							<div class="hamburger-menu">
+								<span class="menu-item"></span>
+			          <span class="menu-item"></span>
+			          <span class="menu-item"></span>
+							</div>
+						</header>
+						<nav class="mobile-nav">				
+							<ul>
+								<li><a href="Australia.html">Home</a></li>
+								<li><a href="prepare.html">Preparation</a></li>
+								<li><a href="doanddonts.html">Do's And Don'ts</a></li>
+								<li><a href="rental.html">Renting</a></li>
+								<li><a href="events.html">Events</a></li>
+								<li><a href="translate.html">Slang Translator</a></li>
+								<li><a href="food.html">Special Food</a></li>
+							</ul>
+						</nav>
+		  		</div>
+ 			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class='pagetitle'><h2>Iconic Australian Foods</h2></div>
+		<div class='foods_card'>
+			<div class='pageContainerCard'>
+				<div class='firstPart' style="background: #efdff3;">
+					<div class='fp_header' data-aos='fade-up' data-aos-duration="700" data-aos-delay="200" data-aos-once='true' >
+						Tim Tam
+					</div>
+					<div class='spark' data-aos='fade-up' data-aos-duration="700" data-aos-delay="400" data-aos-once='true'></div>
+					<div class='firstcontent' data-aos='fade-up' data-aos-duration="700" data-aos-delay="400" data-aos-once='true'>
+						It is heard that the best way to eat Tim Tams is: bite the diagonal corners and then take a cup of coffee, tea or hot chocolate.
+					</div>
+					<div class='secContent' data-aos='fade-up' data-aos-duration="700" data-aos-delay="600" data-aos-once='true'>
+						Another interesting way is: use it as a straw and drink through biscuits. Before it gets too soggy and falls into your drink, you will enjoy the soft and warm chocolate.
+					</div>
+				</div>
+				<div class='secContainerpart c1'>
+				</div>
+			</div>
+			<div class='pageContainerCard'>
+				<div class='firstPart' style="background: #f5e0e1;">
+					<div class='fp_header' data-aos='fade-up' data-aos-duration="700" data-aos-delay="200" data-aos-once='true'>
+						Pavlova
+					</div>
+					<div class='spark' data-aos='fade-up' data-aos-duration="700" data-aos-delay="400" data-aos-once='true'></div>
+					<div class='firstcontent' data-aos='fade-up' data-aos-duration="700" data-aos-delay="400" data-aos-once='true'>
+						Australians and New Zealanders have been competing for the title of Pavlova's "inventor" - a meringue cake base with whipped cream and fruit.
+					</div>
+					<div class='secContent' data-aos='fade-up' data-aos-duration="700" data-aos-delay="600" data-aos-once='true'>
+						In Australia, people can easily find it at a cake shop or a bakery. People can also buy it from some large supermarket chains (bread or frozen dessert section).
+					</div>
+				</div>
+				<div class='secContainerpart c2'>
+				</div>
+			</div>
+			<div class='pageContainerCard'>
+				<div class='firstPart' style="background: #f2f1df;">
+					<div class='fp_header' data-aos='fade-up' data-aos-duration="700" data-aos-delay="200" data-aos-once='true'>
+						Grilled Kangaroo
+					</div>
+					<div class='spark' data-aos='fade-up' data-aos-duration="700" data-aos-delay="400" data-aos-once='true'></div>
+					<div class='firstcontent' data-aos='fade-up' data-aos-duration="700" data-aos-delay="400" data-aos-once='true'>
+						Kangaroo is one of the healthiest meats. From the taste point of view, it is closest to beef. However, kangaroos contain more protein and iron than beef, with less calories and fat content. In addition, it is also a good source of omega-3.
+					</div>
+					<div class='secContent'>
+						
+					</div>
+				</div>
+				<div class='secContainerpart c3'>
+				</div>
+			</div>
+			<div class='pageContainerCard'>
+				<div class='firstPart' style="background: #efdff3;">
+					<div class='fp_header' data-aos='fade-up' data-aos-duration="700" data-aos-delay="200" data-aos-once='true'>
+						Barramundi
+					</div>
+					<div class='spark' data-aos='fade-up' data-aos-duration="700" data-aos-delay="400" data-aos-once='true'></div>
+					<div class='firstcontent' data-aos='fade-up' data-aos-duration="700" data-aos-delay="400" data-aos-once='true'>
+						Australian barramundi, a name which means ‘large-scaled river fish’ in the Aboriginal language in the Rockhampton area. Whatever fried or grilled, its seared skin-sides are heathier alternatives than battered fish and a true Aussie meal.
+					</div>
+					<div class='secContent' data-aos='fade-up' data-aos-duration="700" data-aos-delay="600" data-aos-once='true'>
+						Going to Queensland will bring you some of the best fish in the country.
+					</div>
+				</div>
+				<div class='secContainerpart c4'>
+				</div>
+			</div>
+			<div class='pageContainerCard'>
+				<div class='firstPart' style="background: #f5e0e1;">
+					<div class='fp_header' data-aos='fade-up' data-aos-duration="700" data-aos-delay="200" data-aos-once='true'>
+						Lamingtons
+					</div>
+					<div class='spark' data-aos='fade-up' data-aos-duration="700" data-aos-delay="400" data-aos-once='true'></div>
+					<div class='firstcontent' data-aos='fade-up' data-aos-duration="700" data-aos-delay="400" data-aos-once='true'>
+						Lamingtons are widely recognized as the ‘National Cake of Australia’. Lamington is a moderate square sponge dipped in chocolate and coated with a dry coconut.
+					</div>
+					<div class='secContent' data-aos='fade-up' data-aos-duration="700" data-aos-delay="600" data-aos-once='true'>
+						They can be perfectly matched with a delicious bush tea or one of Melbourne's world-famous coffees, and can be found at all the great bakeries and cafes.
+					</div>
+				</div>
+				<div class='secContainerpart c5'>
+				</div>
+			</div>
+			<div class='pageContainerCard'>
+				<div class='firstPart' style="background: #f2f1df;">
+					<div class='fp_header' data-aos='fade-up' data-aos-duration="700" data-aos-delay="200" data-aos-once='true'>
+						Chicken Parmigian
+					</div>
+					<div class='spark' data-aos='fade-up' data-aos-duration="700" data-aos-delay="400" data-aos-once='true'></div>
+					<div class='firstcontent' data-aos='fade-up' data-aos-duration="700" data-aos-delay="400" data-aos-once='true'>
+						This classic Australian chicken dish – derived from Italian American cuisine - is the main product of almost all bars in the country.
+					</div>
+					<div class='secContent' data-aos='fade-up' data-aos-duration="700" data-aos-delay="400" data-aos-once='true'>
+						At the beginning, it is based on eggplant, which are still suitable for vegetarians. And now, it has been developed into chicken schnitzel with tomato sauce and melted cheese.
+					</div>
+				</div>
+				<div class='secContainerpart c6'>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

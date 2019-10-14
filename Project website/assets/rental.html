@@ -1,0 +1,129 @@
+<html lang='en'>
+<head>
+	<title>G'Day Australia</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel='stylesheet' href='assets/css/animate.css'>
+	<link rel='stylesheet' href='assets/css/main.css'>
+	<link rel='stylesheet' href='assets/css/aos.css'>
+	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width:415px)"
+　　　　 href="assets/css/tinyEvent.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuVNf2TV4Z2dFfoCZaiCISIR1wpF7byjA&callback=initMap"></script>
+	<script src='assets/js/tween.js'></script>
+	<script src='assets/js/vue_2.2.4.js'></script>
+	<script src='assets/js/prototype.js'></script>
+	<script src='assets/js/map.js'></script>
+	<script src='assets/js/aos.js'></script>
+	<script src='assets/js/loading.js'></script>
+</head>
+<body class='docs'>
+	<div class='page_container'>
+	<div id='header' class='sideHeader'>
+		<div style='font-weight:bold;margin-top:-15px;margin-left:-30px;font-family: cute;max-width: 200px'>
+			<a href="Australia.html" style='text-decoration: none;margin-top:-20px;display: block;'><p style="color:#4d4d4d;">G'Day</p><p style="margin-top: -1em;color:#4d4d4d;">Australia</p></a>
+		</div>
+		<ul class='nav' style="color: black;margin-top:-55px;font-weight: 500">
+					<li><a href='Australia.html' class='nav-link' style='color:black'>Home</a></li>
+					<li><a href='translate.html' class='nav-link' style='color:black'>Slangs</a>
+						<li><a href='events.html' class='nav-link' style='color:black'>Events</a>
+					<li><a href='prepare.html' class='nav-link' style='color:black'>Preparation</a></li>
+					<li><a href="doanddonts.html" class='nav-link' style='color:black'>do's and don'ts</a></li>
+					<li><a href='rental.html' class='nav-link nav_active' style='color:black'>Renting</a>
+					
+					<li><a href='food.html' class='nav-link' style='color:black'>Food</a>
+					
+	<!-- 		<li class='resource'>
+				<a class='nav-link'>Resource</a>
+				<span class='arrow'></span>
+				<ul class='nav-dropdown'>
+					<li><a href="#"></a>
+					<li><a href='#'></a>
+				</ul>
+			</li>
+			<li class='contact'>
+				<a class='nav-link'>Contact us</a>
+			</li> -->
+		</ul>
+	</div>
+	<div class='tinyheader'>
+		<div id='header'>
+		<div class = "headerlogo" style='font-weight:bold;font-family: cute'>
+			<p>G'Day</p><p>Australia</p>
+		</div>
+		<div class="u-wrapper">
+			   <div class="mobile">
+						<header class="header">
+							<div class="hamburger-menu">
+								<span class="menu-item"></span>
+			          <span class="menu-item"></span>
+			          <span class="menu-item"></span>
+							</div>
+						</header>
+						<nav class="mobile-nav">				
+							<ul>
+								<li><a href="Australia.html">Home</a></li>
+								<li><a href="prepare.html">Preparation</a></li>
+								<li><a href="doanddonts.html">Do's And Don'ts</a></li>
+								<li><a href="rental.html">Renting</a></li>
+								<li><a href="events.html">Events</a></li>
+								<li><a href="translate.html">Slang Translator</a></li>
+								<li><a href="food.html">Special Food</a></li>
+							</ul>
+						</nav>
+		  		</div>
+ 			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class='loadingbox animated'>
+			<div class="boxLoading">
+			</div>
+		</div>
+		<div class='runonphone'>
+			<p class='article_header' style="text-align: center;font-family: nyt-imperial,georgia,'times new roman',times,serif;">Rent search by suburb name</p>
+			<div class='mapcontainer'>
+				<div class='conditionpick'>
+					<p class='discription'>Room type: </p>
+					<div class='selectiontype' style='position: relative;'>
+						<img class='firstarrowimg' src='assets/img/arrowimg.png' />
+						<select id='roomtype'>
+							<option value="flat">Flat</option>
+							<option value="house">House</option>
+						</select>
+					</div>
+					<div class='roomnumber'>
+						<p class='discription'>Bedroom number required: </p>
+						<label class="containerbox">One
+						  	<input type="radio" checked="checked" name="radio" value='1'>
+						  	<span class="checkmark" id='specialradio'></span>
+						</label>
+						<label class="containerbox">Two
+						  	<input type="radio" name="radio" value='2'>
+						  	<span class="checkmark"></span>
+						</label>
+						<label class="containerbox">Three
+						  	<input type="radio" name="radio" value='3'>
+						  	<span class="checkmark"></span>
+						</label>
+					</div>
+				</div>
+				<div class='formInput'>
+					<input type='text' id='where' placeholder="Input the suburb name">
+					<img class='arrowimg' src='assets/img/arrowimg.png' />
+					<div class="dropdownBox">
+						<ul id="suggestionBar">
+							<li>expamples</li>
+						</ul>
+					</div>
+					<div class='searchButton' id='searchB'>Search</div>
+				</div>
+				<div class='googlemap'>
+    				<div id="map"></div>
+    			</div>
+    		</div>
+    	</div>
+    		<div class='tableauPlaceholder' id='viz1570974859391' style='position: relative;width: 600px;height:600px;margin:0 auto'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;re&#47;rental2_15709480068390&#47;1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='rental2_15709480068390&#47;1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;re&#47;rental2_15709480068390&#47;1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1570974859391');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='1227px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='1227px';} else { vizElement.style.width='100%';vizElement.style.height='977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,435 @@
+<html lang='en'>
+<head>
+	<title>G'Day Australia</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel='stylesheet' href='assets/css/animate.css'>
+	<link rel='stylesheet' href='assets/css/main.css'>
+	<link rel='stylesheet' href='assets/css/aos.css'>
+	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width:415px)"
+　　　　 href="assets/css/tinyPrepare.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src='assets/js/tween.js'></script>
+	<script src='assets/js/vue_2.2.4.js'></script>
+	<script src='assets/js/prototype.js'></script>
+	<script src='assets/js/aos.js'></script>
+	<script src='assets/js/pre.js'></script>
+</head>
+<body class='docs'>
+	<div class='blacksheild' id='weapon'>
+		<p class='closetage'>+</p>
+		<div class='tableList'>
+			<table>
+				<thead>
+					<tr>
+						<th>Weapon</th>
+						<th>Can Bring</th>
+						<th>Cannot Bring</th>
+						<th>Need to Declare</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Automatic knives</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Blow guns</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Concealed blades</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Daggers</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Electric shock devices</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Fixed blades Knives</td>
+						<td></td>
+						<td></td>
+						<td>✓</td>
+					</tr>
+					<tr>
+						<td>Laser pointers</td>
+						<td></td>
+						<td></td>
+						<td>✓</td>
+					</tr>
+					<tr>
+						<td>Multi-tool knives</td>
+						<td>✓</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Swords and bayonets</td>
+						<td>✓</td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class='blacksheild' id='dutyfree'>
+			<p class='closetage'>+</p>
+			<div class='tableList'>
+				<table>
+					<thead>
+						<tr>
+							<th>Duty Free</th>
+							<th>Special Requirements</th>
+							<th>Can Bring</th>
+							<th>Cannot Bring</th>
+							<th>Need to Declare</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Alcohol</td>
+							<td>​If you’re aged 18 or older, you can bring in up to 2.25 litres of alcoholic drinks duty-free.</td>
+							<td></td>
+							<td></td>
+							<td>✓</td>
+						</tr>
+						<tr>
+							<td>General Goods</td>
+							<td>​If you’re aged 18 or older, you can bring in $900 of general goods duty-free. If you're under 18, you can bring in $450 worth of general goods duty-free. This does not include bringing in commercial goods.</td>
+							<td></td>
+							<td></td>
+							<td>✓</td>
+						</tr>
+						<tr>
+							<td>Tobacco and Cigarette</td>
+							<td>f you’re aged 18 years or older, you can bring in duty free: one unopen packet of up to 25 cigarettes, and one open packet of cigarettes. You can bring in up to 1.5 kilograms of smokeless tobacco for personal use, but you will have to pay duty on any tobacco above 25 grams.</td>
+							<td></td>
+							<td></td>
+							<td>✓</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+	</div>
+	<div class='blacksheild' id='foodanddrinks'>
+		<p class='closetage'>+</p>
+		<div class='tableList'>
+			<table>
+				<thead>
+					<tr>
+						<th>Food and Drinks</th>
+						<th>Can Bring</th>
+						<th>Cannot Bring</th>
+						<th>Need to Declare</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Food from the plane or ship</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Cheese, butter, and other dairy products Chocolate or confectionery </td>
+						<td></td>
+						<td></td>
+						<td>✓</td>
+					</tr>
+					<tr>
+						<td>Coffee</td>
+						<td>✓</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Dried Herbs</td>
+						<td>✓</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Meat Items</td>
+						<td></td>
+						<td></td>
+						<td>✓</td>
+					</tr>
+					<tr>
+						<td>Pet food and Treats</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Fish</td>
+						<td></td>
+						<td></td>
+						<td>✓</td>
+					</tr>
+					<tr>
+						<td>Honey products</td>
+						<td></td>
+						<td></td>
+						<td>✓</td>
+					</tr>
+					<tr>
+						<td>​Breast milk</td>
+						<td>✓</td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>	
+	<div class='blacksheild' id='weapon'>
+		<p class='closetage'>+</p>
+		<div class='tableList'>
+			<table>
+				<thead>
+					<tr>
+						<th>Animals，Plants and Seeds</th>
+						<th>Can Bring</th>
+						<th>Cannot Bring</th>
+						<th>Need to Declare</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Cats and Dogs</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Pet birds</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Horses and rabbits</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Reproductive material</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Laboratory animals</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Aquarium fish</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Unique or exotic animal</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Live plants</td>
+						<td></td>
+						<td>✓</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Seeds</td>
+						<td></td>
+						<td></td>
+						<td>✓</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class='page_container' style="background: #efefef">
+	<div id='header' class='sideHeader'>
+		<div style='font-weight:bold;margin-top:-15px;margin-left:-30px;font-family: cute;max-width: 200px'>
+			<a href="Australia.html" style='text-decoration: none;margin-top:-20px;display: block;'><p style="color:#4d4d4d;">G'Day</p><p style="margin-top: -1em;color:#4d4d4d;">Australia</p></a>
+		</div>
+		<ul class='nav' style="color: black;margin-top:-55px;font-weight: 500">
+			<li><a href='Australia.html' class='nav-link' style='color:black'>Home</a></li>
+				<li><a href='translate.html' class='nav-link' style='color:black'>Slangs</a>
+					<li><a href='events.html' class='nav-link' style='color:black'>Events</a>
+					<li><a href='prepare.html' class='nav-link nav_active' style='color:black'>Preparation</a></li>
+					<li><a href="doanddonts.html" class='nav-link' style='color:black'>do's and don'ts</a></li>
+					<li><a href='rental.html' class='nav-link' style='color:black'>Renting </a>
+					
+					<li><a href='food.html' class='nav-link' style='color:black'>Food</a>
+				
+	<!-- 		<li class='resource'>
+				<a class='nav-link'>Resource</a>
+				<span class='arrow'></span>
+				<ul class='nav-dropdown'>
+					<li><a href="#"></a>
+					<li><a href='#'></a>
+				</ul>
+			</li>
+			<li class='contact'>
+				<a class='nav-link'>Contact us</a>
+			</li> -->
+		</ul>
+	</div>
+	<div class='tinyheader'>
+	<div id='header'>
+	<div class = "headerlogo" style='font-weight:bold;font-family: cute'>
+		<p>G'Day</p><p>Australia</p>
+	</div>
+	<div class="u-wrapper">
+		   <div class="mobile">
+					<header class="header">
+						<div class="hamburger-menu">
+							<span class="menu-item"></span>
+		          <span class="menu-item"></span>
+		          <span class="menu-item"></span>
+						</div>
+					</header>
+					<nav class="mobile-nav">				
+						<ul>
+							<li><a href="Australia.html">Home</a></li>
+							<li><a href="prepare.html">Preparation</a></li>
+							<li><a href="doanddonts.html">Do's And Don'ts</a></li>
+							<li><a href="rental.html">Renting</a></li>
+							<li><a href="events.html">Events</a></li>
+							<li><a href="translate.html">Slang Translator</a></li>
+							<li><a href="food.html">Special Food</a></li>
+						</ul>
+					</nav>
+	  		</div>
+ 		</div>
+	</div>
+	</div>
+	<div class="container">
+		<div class='article_content'>
+			<p class='article_header'>What you need to <span style='font-weight: bold'>bring?</span></p>
+			<div class='precontainer'>
+				<div class='prebox' data-aos='fade-up' data-aos-duration="1000" data-aos-delay="300" data-aos-once='true'>
+					<div class='top-right-box imgbox'>
+						<div class='detailed'>
+							<div class='maintainp' style="margin-top:40px;">
+								<span>Passport</span>
+								<span>Visa</span>
+								<span>Offer letter</span>
+								<span>OSHC card</span>
+							</div>
+						</div>
+					</div>
+					<div class='descrptionbox' style='background:#6d64f3'>
+						<p>DOCUMENTS</p>
+					</div>
+				</div>
+				<div class='prebox' data-aos='fade-up' data-aos-once='true' data-aos-duration="1000">
+					<div class='top-left-box imgbox'>
+						<div class='detailed'>
+							<div class='maintainp' style="margin-top: 50px;">
+								<span>You can bring in as much cash you want to Australia, but if the combined cash in AUD or any other foreign currency is more than $10,000 then you have to declare it to customs.</span>
+							</div>
+						</div>
+					</div>
+					<div class='descrptionbox' style='background:#e84b00 '>
+						<p>MONEY</p>
+					</div>
+				</div>
+				<div class='prebox bot-left-box' data-aos='fade-up' data-aos-duration="1000" data-aos-once='true' data-aos-delay="500">
+					<div class='bot-left-box imgbox'>
+						<div class='detailed'>
+							<div class='maintainp'>
+								<span style='width:300px;margin:auto;margin-top:30px' class='speee'>Sunglasses are a great fashion accessory, but their most important job is to protect your eyes from the sun's ultraviolet (UV) rays. Some of the sun's effects on the eyes include: Cataracts, a clouding of the eye's lens that can blur vision. </span>
+							</div>
+						</div>
+					</div>
+					<div class='descrptionbox'>
+						<p>SUNGLASSES</p>
+					</div>
+				</div>
+				<div class='prebox bot-right-box' data-aos='fade-up' data-aos-duration="1000" data-aos-once='true' data-aos-delay="700">
+					<div class='bot-right-box imgbox'>
+						<div class='detailed'>
+							<div class='maintainp'>
+								<span style='width:200px;margin:auto;margin-top:10px'>All the necessary drugs, You need to make sure you are allowed to bring them into the country and that you have documentation, either the prescription or a doctor’s note.</span>
+							</div>
+						</div>
+					</div>
+					<div class='descrptionbox' style='background:#008629 '>
+						<p>MEDICINES</p>
+					</div>
+				</div>
+			</div>
+			<p class='article_header'>What you need to <span style='font-weight: bold'>declare?</span></p>
+			<div class='precontainer seccontainer'>
+				<div class='prebox' data-aos='fade-up' data-aos-duration="1000" data-aos-once='true' data-aos-delay="300">
+					<div class='top-right-box1 imgbox abcde'>
+					</div>
+					<div class='secpart'>
+							<p style='display: none' class='indicator'>3</p>
+							<div class='readmore'>Read more</div>
+					</div>
+					<div class='descrptionbox' style='background:#009a8a'>
+						<p>Plants and animals</p>
+					</div>
+				</div>
+				<div class='prebox' data-aos='fade-up' data-aos-duration="1000" data-aos-once='true'>
+					<div class='top-left-box1 imgbox abcde'>
+					</div>
+					<div class='secpart'>
+						<p style='display: none' class='indicator'>0</p>	
+						<div class='readmore'>Read more</div>
+					</div>
+					<div class='descrptionbox' style='background:#006f9d '>
+						<p>Weapon</p>
+					</div>
+				</div>
+				<div class='prebox' data-aos='fade-up' data-aos-duration="1000" data-aos-once='true' data-aos-delay="500">
+					<div class='bot-left-box1 imgbox abcde'>
+					</div>
+					<div class=' secpart'>
+							<p style='display: none' class='indicator'>1</p>
+							<div class='readmore'>Read more</div>
+						</div>
+					<div class='descrptionbox' style='background:#687268 '>
+						<p>Duty free goods</p>
+					</div>
+				</div>
+				<div class='prebox' data-aos='fade-up' data-aos-duration="1000" data-aos-once='true' data-aos-delay="700">
+					<div class='bot-right-box1 imgbox abcde'>
+					</div>
+					<div class=' secpart'>
+							<p style='display: none' class='indicator'>2</p>
+							
+							<div class='readmore'>Read more</div>
+						</div>
+					<div class='descrptionbox'>
+						<p>Food and drink</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

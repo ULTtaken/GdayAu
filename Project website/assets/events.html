@@ -1,0 +1,116 @@
+<html lang='en'>
+<head>
+	<title>G'Day Australia</title>
+	<meta charset='utf-8'>	
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/datepicker.css" />
+	<link rel='stylesheet' href='assets/css/animate.css'>
+	<link rel='stylesheet' href='assets/css/main.css'>
+	<link rel='stylesheet' href='assets/css/aos.css'>
+	<link rel='stylesheet' href='assets/css/event.css'>
+	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width:415px)"
+　　　　 href="assets/css/tinyEvent.css" />
+	<script src='assets/js/tween.js'></script>
+	<script src='assets/js/vue_2.2.4.js'></script>
+	<script src='assets/js/prototype.js'></script>
+	<script src='assets/js/aos.js'></script>
+	<script src='assets/js/events.js'></script>
+</head>
+<body class='docs'>
+	<div class='page_container' style='background: #fcfcfc'>
+	<div id='header' class='sideHeader'>
+		<div style='font-weight:bold;margin-top:-15px;margin-left:-30px;font-family: cute;max-width: 200px'>
+			<a href="Australia.html" style='text-decoration: none;margin-top:-20px;display: block;'><p style="color:#4d4d4d;">G'Day</p><p style="margin-top: -1em;color:#4d4d4d;">Australia</p></a>
+		</div>
+		<ul class='nav' style="color: black;margin-top:-55px;font-weight: 500">
+			<li><a href='Australia.html' class='nav-link' style='color:black'>Home</a></li>
+			<li><a href='translate.html' class='nav-link' style='color:black'>Slangs</a>
+				<li><a href='events.html' class='nav-link nav_active' style='color:black'>Events</a>
+					<li><a href='prepare.html' class='nav-link' style='color:black'>Preparation</a></li>
+					<li><a href="doanddonts.html" class='nav-link' style='color:black'>do's and don'ts</a></li>
+					<li><a href='rental.html' class='nav-link' style='color:black'>Renting </a>
+					
+					<li><a href='food.html' class='nav-link' style='color:black'>Food</a>
+					
+	<!-- 		<li class='resource'>
+				<a class='nav-link'>Resource</a>
+				<span class='arrow'></span>
+				<ul class='nav-dropdown'>
+					<li><a href="#"></a>
+					<li><a href='#'></a>
+				</ul>
+			</li>
+			<li class='contact'>
+				<a class='nav-link'>Contact us</a>
+			</li> -->
+		</ul>
+	</div>
+	<div class='tinyheader'>
+		<div id='header'>
+		<div class = "headerlogo" style='font-weight:bold;font-family: cute'>
+			<p>G'Day</p><p>Australia</p>
+		</div>
+		<div class="u-wrapper">
+			   <div class="mobile">
+						<header class="header">
+							<div class="hamburger-menu">
+								<span class="menu-item"></span>
+			          <span class="menu-item"></span>
+			          <span class="menu-item"></span>
+							</div>
+						</header>
+						<nav class="mobile-nav">				
+							<ul>
+								<li><a href="Australia.html">Home</a></li>
+								<li><a href="prepare.html">Preparation</a></li>
+								<li><a href="doanddonts.html">Do's And Don'ts</a></li>
+								<li><a href="rental.html">Renting</a></li>
+								<li><a href="events.html">Events</a></li>
+								<li><a href="translate.html">Slang Translator</a></li>
+								<li><a href="food.html">Special Food</a></li>
+							</ul>
+						</nav>
+		  		</div>
+ 			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class='informationpicker' data-aos='fade-In' data-aos-duration="1000">
+			<div class="form-style-8">
+			  <h2>Choose your event style</h2>
+			  <form>
+			  	<div style='position: relative;'>
+			    	<input type="text" readonly id='datepicker' name="field1" placeholder="Date range to go out" />
+			    	<img src='assets/img/calender.png' class='cicon cicon1'/>
+			    </div>
+			    <div style='position: relative;'>
+			    		<input type="text" name="field2" id='location_event' placeholder="In" />
+			    		<img src='assets/img/location.jpg' class='cicon cicon2'/>
+				</div>
+			    <select id='categories_event'>
+			    			<option value="000">Anything</option>
+							<option value="101">Business</option>
+							<option value="102">Science</option>
+							<option value='103'>Music</option>
+							<option value='104'>Film, Media & Entertainment</option>
+							<option value='105'>Performing</option>
+							<option value='106'>Fashion</option>
+							<option value='107'>Health&Wellness</option>
+							<option value='108'>Sports</option>
+							<option value='109'>Outdoors</option>
+							<option value='110'>Food & Drink</option>
+				</select>
+			    <input type="button" id='searchevent' value="Search for events" />
+			  </form>
+			</div>
+		</div>
+		<div class='loadingdiv'><div class="lds-dual-ring"></div></div>
+		<div class='allevents'>
+		</div>
+	</div>
+</body>
+</html>
