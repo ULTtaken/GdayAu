@@ -1,0 +1,96 @@
+.pagetitle{
+	width: 100%;
+	text-align: center;
+}
+.foods_card{
+	width: 100%;
+}
+.pagetitle h2{
+	font-size: 35px;
+	color: #292929;
+	letter-spacing: 0.01em;
+	font: normal normal normal 28px/1.375em oswald-extralight,oswald,sans-serif;
+	line-height: 1.2em;
+	font-weight: 300;
+	margin:0;
+	padding: 0;
+}
+.pageContainerCard{
+	margin:30px auto 0 auto;
+	width: 980px;
+	height:473px;
+}
+.firstPart{
+	float: left;
+	width:319px;
+	height:100%;
+	margin:0;
+	padding: 0;
+	position: relative;
+}
+.secContainerpart{
+	float:left;
+	width: 661px;
+	height:100%;
+	margin:0;
+	padding: 0;
+}
+.c1{
+	background:url('../img/tim.png') no-repeat;
+	background-size: cover;
+}
+.c2{
+	background:url('../img/pa.png') no-repeat;
+	background-size: cover;
+}
+.c3{
+	background:url('../img/gk.png') no-repeat;
+	background-size: cover;
+}
+.c4{
+	background:url('../img/barr.png') no-repeat;
+	background-size: cover;
+}
+.c5{
+	background:url('../img/lam.png') no-repeat;
+	background-size: cover;
+}
+.c6{
+	background:url('../img/cp.png') no-repeat;
+	background-size: cover;
+}
+.fp_header{
+	position: absolute;
+	top:30px;
+	left:20px;
+	font-size:35px;
+	font-weight: 400;
+}
+.spark{
+	position: absolute;
+	top:95px;
+	left:24px;
+	width:8px;
+	height: 8px;
+	background: black;
+	border-radius: 25%;
+}
+.firstcontent{
+	position: relative;
+	margin-top:90px;
+	margin-left:40px;
+	float:left;
+	font-size:18px;
+	min-height:137px;
+	font-family: futura-lt-w01-book,sans-serif;
+	width: 235px;
+}
+.secContent{
+	position: relative;
+	margin-top: 25px;
+	margin-left:40px;
+	float:left;
+	font-size:18px;
+	font-family: futura-lt-w01-book,sans-serif;
+	width: 235px;
+}

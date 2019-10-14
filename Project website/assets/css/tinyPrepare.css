@@ -1,0 +1,163 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+html {
+  scroll-behavior: smooth;
+}
+body.docs{
+	margin:0;
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+	overflow-x: hidden;
+}
+.precontainer{
+	width:100%;
+	height:auto!important;
+}
+.prebox{
+	width:80%;
+	height:auto;
+}
+.blackshield{
+	min-height: 100vh;
+	bottom: none;
+}
+.article_header{
+	font-size:1.5em;
+	margin-bottom: 10px;
+}
+.article_content{
+	max-width: none;
+	font-size: 1em;
+}
+.descrptionbox p{
+	font-size: 1.5em;
+}
+.tinyheader{
+	display: block;
+}
+.sideHeader{
+	display: none;
+}
+.speee{
+	margin-top: 0!important;
+}
+.closetage{
+	font-size: 3em;
+	margin-right:10px;
+}
+.tableList{
+	left:0;
+	top:60px;
+}
+.tableList{
+	width:100%;
+	max-height:calc(100vh - 120px);
+	overflow-y: scroll;
+}
+.tableList th, td{
+	padding: 3px;
+}
+.tableList th,td{
+	max-width: 80px;
+	overflow-x: hidden;
+}
+/*************HEADER**************/
+.headerlogo{
+	color:black!important;
+	margin-left:0;
+	margin-top: 0;
+}
+#header{
+	padding:0px 1px;
+	height: 40px;
+	z-index: 2;
+	border-bottom: 1px solid black;
+    background: white;
+    position: fixed;
+    width: 100%;
+    top:0;
+    font-size: 1em;
+}
+
+.mobile {
+  margin-top: -30px;
+  text-align: center;
+}
+.mobile .mobile-nav {
+  position: absolute;
+  right: 0px;
+  top:40px;
+  background-color: white;
+  max-width: 120px;
+  width: 100%;
+  height: 100%;
+  transform: translate(100%, 0);
+  transition: all 0.2s ease-in-out;
+}
+.mobile .mobile-nav ul {
+  list-style-type: none;
+  background:white;
+}
+.mobile .mobile-nav li a {
+  color: black;
+  display: block;
+  padding: 15px 5px;
+}
+.mobile .mobile-nav li a:hover {
+  background-color: #23252B;
+  color: #fff;
+}
+
+.header {
+}
+.header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hamburger-menu {
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  float: right;
+  height: 40px;
+  outline: 0;
+}
+.readmore{
+  right:95px;
+}
+.hamburger-menu:hover {
+  cursor: pointer;
+}
+.hamburger-menu .menu-item {
+  background-color: black;
+  display: block;
+  height: 3px;
+  margin: 0 10px 6px;
+  transition: all 0.3s ease-in-out;
+  width: 30px;
+}
+.hamburger-menu.open .menu-item {
+  margin: 6px 0px -4px;
+  background-color: orangered;
+}
+.hamburger-menu.open .menu-item:first-child {
+  transform: rotate(45deg);
+  transform-origin: 10px;
+}
+.hamburger-menu.open .menu-item:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-menu.open .menu-item:nth-child(3) {
+  transform: rotate(-45deg);
+  transform-origin: 8px;
+}

@@ -1,0 +1,126 @@
+.onePage{
+	width: 100%;
+	background: transparent;
+	margin:0;
+	padding: 0;
+	height: calc(100vh - 51px);
+}
+.tinyheader{
+	display: none;
+}
+.wordspart{
+	width:40%;
+	display: block;
+	float:left;
+	background: transparent;
+	height: calc(100vh - 51px);
+	text-align: center;
+}
+.wordtitle{
+	margin:36vh auto 7vh auto;
+}
+.closetag{
+	transform: rotate(45deg);
+	position: absolute;
+	right:10px;
+	top:5px;
+	font-size:1.5em;
+}
+.infoplay{
+	width: 300px;
+	height: 200px;background: rgb(62,150,19);
+	background: linear-gradient(0deg, rgba(62,150,19,1) 0%, rgba(34,193,195,1) 100%);
+	color:white;
+	position: absolute;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	left:-41px;
+	border-radius: 2%;
+	top:-50px;
+	z-index: 99;
+	padding:20px;
+	transform: scale(0);
+	transition: 0.7s all ease;
+}
+.secsepcial .infoplay{
+	color:white;
+	background: rgb(150,35,19)!important;
+	background: linear-gradient(0deg, rgba(150,35,19,1) 0%, rgba(195,178,34,1) 100%)!important;
+}
+.carefulplay{
+	left:-130px!important;
+}
+.show{
+	display: block;
+	transform:scale(1.15);
+}
+.infoplay h3{
+	margin-top: 20px;
+	text-align: left;
+}
+.infoplay p{
+	text-align: left;
+	font-size:0.8em;
+}
+.wordtitle p{
+	margin:auto;
+	text-align: left;
+	width:400px;
+	font-size:2.3em;
+	font-family: roboto-bold,roboto,sans-serif;
+	font-weight: 600;
+}
+.wordexplain{
+	margin:0 auto;
+	text-align: left;
+	width:400px;
+	font-size:1em;
+	font-family: roboto-bold,roboto,sans-serif;
+	color:#292929;
+}
+.picpart{
+	width: 60%;
+	display: block;
+	float:left;
+	height: calc(100vh - 51px);
+}
+.oneRow{
+	width:100%;
+	min-width: 850px;
+	padding:0 20px;
+}
+.firstpagepart{
+	margin-top:calc(50vh - 271px);
+}
+.oneSeg{
+	position: relative;
+	width:214px;
+	text-align: center;
+	color:grey;
+	margin:0 15px;
+	display: inline-block;
+	transition: 0.5s all ease;
+}
+.oneSeg:hover{
+	cursor: pointer;
+	color:black;
+}
+.secRow{
+	position: relative;
+	left:60px;
+}
+.thrRow{
+	position: relative;
+}
+.onePic{
+	width:210px;
+	height:117px;
+	overflow: hidden;
+	padding:7px 7px;
+	background: white;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.onePic img{
+	width:210px;
+	height:117px;
+	overflow:hidden;
+}

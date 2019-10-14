@@ -1,0 +1,237 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+html {
+  scroll-behavior: smooth;
+}
+.daterangepicker{
+	top:0!important;
+	left:0!important;
+	width: 334px;
+}
+.allevents{
+	width: 100%;
+	text-align: center;
+}
+.form-style-8 h2{
+	font-size: 1em;
+	color:white;
+}
+.form-style-8{
+	width: 80%;
+}
+.form-style-8 input[type="text"], .form-style-8 input[type="date"], .form-style-8 input[type="datetime"], .form-style-8 input[type="email"], .form-style-8 input[type="number"], .form-style-8 input[type="search"], .form-style-8 input[type="time"], .form-style-8 input[type="url"], .form-style-8 input[type="password"], .form-style-8 textarea, .form-style-8 select{
+	font-size: 1em;
+}
+.form-style-8 input[type="button"], .form-style-8 input[type="submit"]{
+	font-size: 1em;
+}
+.headerlogo{
+	color:black!important;
+	margin-left:0;
+	margin-top: 0;
+}
+.tinyheader{
+	display: block;
+}
+.sideHeader{
+	display: none;
+}
+#header{
+	padding:0px 1px;
+	height: 40px;
+	z-index: 2;
+	border-bottom: 1px solid black;
+    background: white;
+    position: fixed;
+    width: 100%;
+    top:0;
+    font-size: 1em;
+}
+
+.mobile {
+  margin-top: -30px;
+  text-align: center;
+}
+.mobile .mobile-nav {
+  position: absolute;
+  right: 0px;
+  top:40px;
+  background-color: white;
+  max-width: 120px;
+  width: 100%;
+  height: 100%;
+  transform: translate(100%, 0);
+  transition: all 0.2s ease-in-out;
+}
+.mobile .mobile-nav ul {
+  list-style-type: none;
+  background:white;
+}
+.mobile .mobile-nav li a {
+  color: black;
+  display: block;
+  padding: 15px 5px;
+}
+.mobile .mobile-nav li a:hover {
+  background-color: #23252B;
+  color: #fff;
+}
+
+.header {
+}
+.header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.hamburger-menu {
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  float: right;
+  height: 40px;
+  outline: 0;
+}
+.hamburger-menu:hover {
+  cursor: pointer;
+}
+.hamburger-menu .menu-item {
+  background-color: black;
+  display: block;
+  height: 3px;
+  margin: 0 10px 6px;
+  transition: all 0.3s ease-in-out;
+  width: 30px;
+}
+.hamburger-menu.open .menu-item {
+  margin: 6px 0px -4px;
+  background-color: orangered;
+}
+.hamburger-menu.open .menu-item:first-child {
+  transform: rotate(45deg);
+  transform-origin: 10px;
+}
+.hamburger-menu.open .menu-item:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-menu.open .menu-item:nth-child(3) {
+  transform: rotate(-45deg);
+  transform-origin: 8px;
+}
+
+
+.form-style-8 input[type="text"], .form-style-8 input[type="date"], .form-style-8 input[type="datetime"], .form-style-8 input[type="email"], .form-style-8 input[type="number"], .form-style-8 input[type="search"], .form-style-8 input[type="time"], .form-style-8 input[type="url"], .form-style-8 input[type="password"], .form-style-8 textarea, .form-style-8 select{
+	font-size: 1em;
+}
+
+
+
+
+/***** TRANSLATE PAGE ************/
+.allmeanings{
+	width: 100%;
+}
+.meaningcard{
+	display: none;
+}
+.lds-roller{
+	margin-left: calc(50vw - 32px);
+}
+.quizbtn{
+	display: none;
+}
+form .field input[type="text"], form .field textarea{
+	text-indent: 4em;
+}
+.inputform{
+	margin-top: 30vh;
+	width:100%!important;
+}
+#tranbtn{
+	z-index: 1;
+}
+form{
+	width: 100%;
+	min-width: 100%;
+}
+form .field{
+	min-width: 100%;
+}
+form .field:hover label{
+	width:30%;
+	font-size:1em;
+}
+.translations{
+	width: 100%;
+	min-width: 100%;
+}
+
+/********* DO AND DONTS **********/
+.wordspart{
+	display: none;
+}
+.picpart{
+	width: 100%;
+	float:none;
+}
+.onePage, .wordspart, .picpart{
+	height:auto;
+}
+.oneRow{
+	min-width: 100%;
+	padding: 0;
+	text-align: center;
+}
+.oneSeg{
+	margin-top: 15px;
+	color:black;
+}
+.firstpagepart{
+	margin-top: calc(50vh - 351px);
+	text-align: center;
+}
+.secRow{
+	left:0;
+}
+.secsepcial{
+	top:0!important;
+}
+.phonedo{
+	display: block!important;
+}
+
+/******* MAP *********/
+.tableauPlaceholder{
+	display: block;
+}
+.runonphone{
+	/*display: block;*/
+}
+
+/******* FOOD PAGE *********/
+.pageContainerCard{
+	width:100%;
+	position: relative;
+	height:916px;
+}
+.pageContainerCard .firstPart{
+	width:100%;
+	height:473px;
+	float:none;
+	top:473px;
+	position: absolute;
+}
+.pageContainerCard .secContainerpart{
+	width: 100%;
+	height:473px;
+	float:none;
+}

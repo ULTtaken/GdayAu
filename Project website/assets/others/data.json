@@ -1,0 +1,1277 @@
+﻿rental = '[{
+      "1_bedroom":[  
+         {  
+            "Place":"Albert Park-Middle Park-West St Kilda",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Armadale",
+            "Rent":"$355"
+         },
+         {  
+            "Place":"Carlton North",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Carlton-Parkville",
+            "Rent":"$393"
+         },
+         {  
+            "Place":"CBD-St Kilda Rd",
+            "Rent":"$430"
+         },
+         {  
+            "Place":"Collingwood-Abbotsford",
+            "Rent":"$410"
+         },
+         {  
+            "Place":"Docklands",
+            "Rent":"$450"
+         },
+         {  
+            "Place":"East Melbourne",
+            "Rent":"$400"
+         },
+         {  
+            "Place":"East St Kilda",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"Elwood",
+            "Rent":"$340"
+         },
+         {  
+            "Place":"Fitzroy",
+            "Rent":"$410"
+         },
+         {  
+            "Place":"Fitzroy North-Clifton Hill",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Flemington-Kensington",
+            "Rent":"$360"
+         },
+         {  
+            "Place":"North Melbourne-West Melbourne",
+            "Rent":"$389"
+         },
+         {  
+            "Place":"Port Melbourne",
+            "Rent":"$440"
+         },
+         {  
+            "Place":"Prahran-Windsor",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Richmond-Burnley",
+            "Rent":"$400"
+         },
+         {  
+            "Place":"South Melbourne",
+            "Rent":"$420"
+         },
+         {  
+            "Place":"South Yarra",
+            "Rent":"$395"
+         },
+         {  
+            "Place":"Southbank",
+            "Rent":"$440"
+         },
+         {  
+            "Place":"St Kilda",
+            "Rent":"$360"
+         },
+         {  
+            "Place":"Toorak",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$400"
+         },
+         {  
+            "Place":"Balwyn",
+            "Rent":"$380"
+         },
+         {  
+            "Place":"Blackburn",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Box Hill",
+            "Rent":"$273"
+         },
+         {  
+            "Place":"Bulleen-Templestowe-Doncaster",
+            "Rent":"$370"
+         },
+         {  
+            "Place":"Burwood-Ashburton",
+            "Rent":"$235"
+         },
+         {  
+            "Place":"Camberwell-Glen Iris",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Canterbury-Surrey Hills-Mont Albert",
+            "Rent":"$368"
+         },
+         {  
+            "Place":"Chadstone-Oakleigh",
+            "Rent":"$380"
+         },
+         {  
+            "Place":"Clayton",
+            "Rent":"$280"
+         },
+         {  
+            "Place":"Doncaster East-Donvale",
+            "Rent":"$368"
+         },
+         {  
+            "Place":"East Hawthorn",
+            "Rent":"$370"
+         },
+         {  
+            "Place":"Glen Waverley-Mulgrave",
+            "Rent":"$360"
+         },
+         {  
+            "Place":"Hawthorn",
+            "Rent":"$320"
+         },
+         {  
+            "Place":"Kew",
+            "Rent":"$390"
+         },
+         {  
+            "Place":"Mount Waverley",
+            "Rent":"$360"
+         },
+         {  
+            "Place":"Nunawading-Mitcham",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"Vermont-Forest Hill-Burwood East",
+            "Rent":"$250"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$325"
+         },
+         {  
+            "Place":"Aspendale-Chelsea-Carrum",
+            "Rent":"$295"
+         },
+         {  
+            "Place":"Bentleigh",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"Brighton",
+            "Rent":"$400"
+         },
+         {  
+            "Place":"Brighton East",
+            "Rent":"-"
+         },
+         {  
+            "Place":"Carnegie",
+            "Rent":"$310"
+         },
+         {  
+            "Place":"Caulfield",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Cheltenham",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Elsternwick",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"Hampton-Beaumaris",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Malvern",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Malvern East",
+            "Rent":"$285"
+         },
+         {  
+            "Place":"Mentone-Parkdale-Mordialloc",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Murrumbeena-Hughesdale",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$315"
+         },
+         {  
+            "Place":"Altona",
+            "Rent":"$285"
+         },
+         {  
+            "Place":"Footscray",
+            "Rent":"$270"
+         },
+         {  
+            "Place":"Keilor East-Avondale Heights",
+            "Rent":"$343"
+         },
+         {  
+            "Place":"Melton",
+            "Rent":"$328"
+         },
+         {  
+            "Place":"Newport-Spotswood",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"St Albans-Deer Park",
+            "Rent":"$248"
+         },
+         {  
+            "Place":"Sunshine",
+            "Rent":"$245"
+         },
+         {  
+            "Place":"Sydenham",
+            "Rent":"-"
+         },
+         {  
+            "Place":"Werribee-Hoppers Crossing",
+            "Rent":"$290"
+         },
+         {  
+            "Place":"West Footscray",
+            "Rent":"$260"
+         },
+         {  
+            "Place":"Williamstown",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Yarraville-Seddon",
+            "Rent":"$305"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$280"
+         },
+         {  
+            "Place":"Broadmeadows-Roxburgh Park",
+            "Rent":"$255"
+         },
+         {  
+            "Place":"Brunswick",
+            "Rent":"$365"
+         },
+         {  
+            "Place":"Coburg-Pascoe Vale South",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"Craigieburn",
+            "Rent":"$245"
+         },
+         {  
+            "Place":"East Brunswick",
+            "Rent":"$380"
+         },
+         {  
+            "Place":"Essendon",
+            "Rent":"$320"
+         },
+         {  
+            "Place":"Gladstone Park-Tullamarine",
+            "Rent":"$275"
+         },
+         {  
+            "Place":"Keilor",
+            "Rent":"-"
+         },
+         {  
+            "Place":"Moonee Ponds-Ascot Vale",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"Oak Park-Glenroy-Fawkner",
+            "Rent":"$283"
+         },
+         {  
+            "Place":"Pascoe Vale-Coburg North",
+            "Rent":"$250"
+         },
+         {  
+            "Place":"Sunbury",
+            "Rent":"$233"
+         },
+         {  
+            "Place":"West Brunswick",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"Bundoora-Greensborough-Hurstbridge",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Eltham-Research-Montmorency",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Fairfield-Alphington",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Heidelberg-Heidelberg West",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Ivanhoe-Ivanhoe East",
+            "Rent":"$380"
+         },
+         {  
+            "Place":"Mill Park-Epping",
+            "Rent":"$295"
+         },
+         {  
+            "Place":"Northcote",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"Preston",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"Reservoir",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Thomastown-Lalor",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Thornbury",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Whittlesea",
+            "Rent":"$268"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$310"
+         },
+         {  
+            "Place":"Bayswater",
+            "Rent":"-"
+         },
+         {  
+            "Place":"Boronia",
+            "Rent":"$295"
+         },
+         {  
+            "Place":"Croydon-Lilydale",
+            "Rent":"$280"
+         },
+         {  
+            "Place":"Ferntree Gully",
+            "Rent":"-"
+         },
+         {  
+            "Place":"Ringwood",
+            "Rent":"$315"
+         },
+         {  
+            "Place":"Rowville",
+            "Rent":"-"
+         },
+         {  
+            "Place":"Wantirna-Scoresby",
+            "Rent":"$340"
+         },
+         {  
+            "Place":"Yarra Ranges",
+            "Rent":"$250"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$290"
+         },
+         {  
+            "Place":"Berwick",
+            "Rent":"-"
+         },
+         {  
+            "Place":"Cranbourne",
+            "Rent":"$270"
+         },
+         {  
+            "Place":"Dandenong",
+            "Rent":"$250"
+         },
+         {  
+            "Place":"Dandenong North-Endeavour Hills",
+            "Rent":"$260"
+         },
+         {  
+            "Place":"Narre Warren-Hampton Park",
+            "Rent":"$255"
+         },
+         {  
+            "Place":"Noble Park",
+            "Rent":"$230"
+         },
+         {  
+            "Place":"Pakenham",
+            "Rent":"$252"
+         },
+         {  
+            "Place":"Springvale",
+            "Rent":"$270"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$250"
+         },
+         {  
+            "Place":"Dromana-Portsea",
+            "Rent":"$270"
+         },
+         {  
+            "Place":"Frankston",
+            "Rent":"$240"
+         },
+         {  
+            "Place":"Hastings-Flinders",
+            "Rent":"$275"
+         },
+         {  
+            "Place":"Mt Eliza-Mornington-Mt Martha",
+            "Rent":"$278"
+         },
+         {  
+            "Place":"Seaford-Carrum Downs",
+            "Rent":"$247"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$240"
+         },
+         {  
+            "Place":"Belmont-Grovedale",
+            "Rent":"$250"
+         },
+         {  
+            "Place":"Corio",
+            "Rent":"$200"
+         },
+         {  
+            "Place":"Geelong-Newcombe",
+            "Rent":"$250"
+         },
+         {  
+            "Place":"Herne Hill-Geelong West",
+            "Rent":"$220"
+         },
+         {  
+            "Place":"Lara",
+            "Rent":"-"
+         },
+         {  
+            "Place":"Newtown",
+            "Rent":"$228"
+         },
+         {  
+            "Place":"North Geelong",
+            "Rent":"$205"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$220"
+         },
+         {  
+            "Place":"Ballarat",
+            "Rent":"$185"
+         },
+         {  
+            "Place":"Mount Clear-Buninyong",
+            "Rent":"$165"
+         },
+         {  
+            "Place":"Sebastopol-Delacombe",
+            "Rent":"$275"
+         },
+         {  
+            "Place":"Wendouree-Alfredton",
+            "Rent":"$165"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$180"
+         },
+         {  
+            "Place":"Bendigo",
+            "Rent":"$190"
+         },
+         {  
+            "Place":"Flora Hill-Bendigo East",
+            "Rent":"$173"
+         },
+         {  
+            "Place":"Golden Square-Kangaroo Flat",
+            "Rent":"$235"
+         },
+         {  
+            "Place":"North Bendigo",
+            "Rent":"$180"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$185"
+         },
+         {  
+            "Place":"Bairnsdale",
+            "Rent":"$170"
+         },
+         {  
+            "Place":"Benalla",
+            "Rent":"$160"
+         },
+         {  
+            "Place":"Castlemaine",
+            "Rent":"-"
+         },
+         {  
+            "Place":"Echuca",
+            "Rent":"$150"
+         },
+         {  
+            "Place":"Hamilton",
+            "Rent":"$150"
+         },
+         {  
+            "Place":"Horsham",
+            "Rent":"$180"
+         },
+         {  
+            "Place":"Mildura",
+            "Rent":"$200"
+         },
+         {  
+            "Place":"Moe-Newborough",
+            "Rent":"$143"
+         },
+         {  
+            "Place":"Morwell",
+            "Rent":"$158"
+         },
+         {  
+            "Place":"Ocean Grove-Barwon Heads",
+            "Rent":"-"
+         },
+         {  
+            "Place":"Portland",
+            "Rent":"$150"
+         },
+         {  
+            "Place":"Sale-Maffra",
+            "Rent":"$165"
+         },
+         {  
+            "Place":"Seymour",
+            "Rent":"$180"
+         },
+         {  
+            "Place":"Shepparton",
+            "Rent":"$170"
+         },
+         {  
+            "Place":"Swan Hill",
+            "Rent":"$150"
+         },
+         {  
+            "Place":"Torquay",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Traralgon",
+            "Rent":"$180"
+         },
+         {  
+            "Place":"Wanagaratta",
+            "Rent":"$185"
+         },
+         {  
+            "Place":"Warragul",
+            "Rent":"$190"
+         },
+         {  
+            "Place":"Warrnambool",
+            "Rent":"$200"
+         },
+         {  
+            "Place":"Wodonga",
+            "Rent":"$175"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$170"
+         }
+   ], 
+      "2_bedroom":[  
+         {  
+            "Place":"Albert Park-Middle Park-West St Kilda",
+            "Rent":"$500"
+         },
+         {  
+            "Place":"Armadale",
+            "Rent":"$488"
+         },
+         {  
+            "Place":"Carlton North",
+            "Rent":"$485"
+         },
+         {  
+            "Place":"Carlton-Parkville",
+            "Rent":"$530"
+         },
+         {  
+            "Place":"CBD-St Kilda Rd",
+            "Rent":"$600"
+         },
+         {  
+            "Place":"Collingwood-Abbotsford",
+            "Rent":"$545"
+         },
+         {  
+            "Place":"Docklands",
+            "Rent":"$625"
+         },
+         {  
+            "Place":"East Melbourne",
+            "Rent":"$580"
+         },
+         {  
+            "Place":"East St Kilda",
+            "Rent":"$430"
+         },
+         {  
+            "Place":"Elwood",
+            "Rent":"$460"
+         },
+         {  
+            "Place":"Fitzroy",
+            "Rent":"$600"
+         },
+         {  
+            "Place":"Fitzroy North-Clifton Hill",
+            "Rent":"$500"
+         },
+         {  
+            "Place":"Flemington-Kensington",
+            "Rent":"$420"
+         },
+         {  
+            "Place":"North Melbourne-West Melbourne",
+            "Rent":"$525"
+         },
+         {  
+            "Place":"Port Melbourne",
+            "Rent":"$600"
+         },
+         {  
+            "Place":"Prahran-Windsor",
+            "Rent":"$500"
+         },
+         {  
+            "Place":"Richmond-Burnley",
+            "Rent":"$550"
+         },
+         {  
+            "Place":"South Melbourne",
+            "Rent":"$550"
+         },
+         {  
+            "Place":"South Yarra",
+            "Rent":"$560"
+         },
+         {  
+            "Place":"Southbank",
+            "Rent":"$580"
+         },
+         {  
+            "Place":"St Kilda",
+            "Rent":"$495"
+         },
+         {  
+            "Place":"Toorak",
+            "Rent":"$495"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$550"
+         },
+         {  
+            "Place":"Balwyn",
+            "Rent":"$430"
+         },
+         {  
+            "Place":"Blackburn",
+            "Rent":"$400"
+         },
+         {  
+            "Place":"Box Hill",
+            "Rent":"$450"
+         },
+         {  
+            "Place":"Bulleen-Templestowe-Doncaster",
+            "Rent":"$450"
+         },
+         {  
+            "Place":"Burwood-Ashburton",
+            "Rent":"$450"
+         },
+         {  
+            "Place":"Camberwell-Glen Iris",
+            "Rent":"$450"
+         },
+         {  
+            "Place":"Canterbury-Surrey Hills-Mont Albert",
+            "Rent":"$430"
+         },
+         {  
+            "Place":"Chadstone-Oakleigh",
+            "Rent":"$400"
+         },
+         {  
+            "Place":"Clayton",
+            "Rent":"$385"
+         },
+         {  
+            "Place":"Doncaster East-Donvale",
+            "Rent":"$420"
+         },
+         {  
+            "Place":"East Hawthorn",
+            "Rent":"$450"
+         },
+         {  
+            "Place":"Glen Waverley-Mulgrave",
+            "Rent":"$420"
+         },
+         {  
+            "Place":"Hawthorn",
+            "Rent":"$460"
+         },
+         {  
+            "Place":"Kew",
+            "Rent":"$438"
+         },
+         {  
+            "Place":"Mount Waverley",
+            "Rent":"$420"
+         },
+         {  
+            "Place":"Nunawading-Mitcham",
+            "Rent":"$393"
+         },
+         {  
+            "Place":"Vermont-Forest Hill-Burwood East",
+            "Rent":"$385"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$430"
+         },
+         {  
+            "Place":"Aspendale-Chelsea-Carrum",
+            "Rent":"$380"
+         },
+         {  
+            "Place":"Bentleigh",
+            "Rent":"$450"
+         },
+         {  
+            "Place":"Brighton",
+            "Rent":"$545"
+         },
+         {  
+            "Place":"Brighton East",
+            "Rent":"$458"
+         },
+         {  
+            "Place":"Carnegie",
+            "Rent":"$450"
+         },
+         {  
+            "Place":"Caulfield",
+            "Rent":"$450"
+         },
+         {  
+            "Place":"Cheltenham",
+            "Rent":"$420"
+         },
+         {  
+            "Place":"Elsternwick",
+            "Rent":"$450"
+         },
+         {  
+            "Place":"Hampton-Beaumaris",
+            "Rent":"$475"
+         },
+         {  
+            "Place":"Malvern",
+            "Rent":"$460"
+         },
+         {  
+            "Place":"Malvern East",
+            "Rent":"$440"
+         },
+         {  
+            "Place":"Mentone-Parkdale-Mordialloc",
+            "Rent":"$400"
+         },
+         {  
+            "Place":"Murrumbeena-Hughesdale",
+            "Rent":"$440"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$440"
+         },
+         {  
+            "Place":"Altona",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Footscray",
+            "Rent":"$395"
+         },
+         {  
+            "Place":"Keilor East-Avondale Heights",
+            "Rent":"$405"
+         },
+         {  
+            "Place":"Melton",
+            "Rent":"$275"
+         },
+         {  
+            "Place":"Newport-Spotswood",
+            "Rent":"$360"
+         },
+         {  
+            "Place":"St Albans-Deer Park",
+            "Rent":"$320"
+         },
+         {  
+            "Place":"Sunshine",
+            "Rent":"$320"
+         },
+         {  
+            "Place":"Sydenham",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Werribee-Hoppers Crossing",
+            "Rent":"$310"
+         },
+         {  
+            "Place":"West Footscray",
+            "Rent":"$360"
+         },
+         {  
+            "Place":"Williamstown",
+            "Rent":"$400"
+         },
+         {  
+            "Place":"Yarraville-Seddon",
+            "Rent":"$395"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Broadmeadows-Roxburgh Park",
+            "Rent":"$343"
+         },
+         {  
+            "Place":"Brunswick",
+            "Rent":"$450"
+         },
+         {  
+            "Place":"Coburg-Pascoe Vale South",
+            "Rent":"$400"
+         },
+         {  
+            "Place":"Craigieburn",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"East Brunswick",
+            "Rent":"$480"
+         },
+         {  
+            "Place":"Essendon",
+            "Rent":"$390"
+         },
+         {  
+            "Place":"Gladstone Park-Tullamarine",
+            "Rent":"$340"
+         },
+         {  
+            "Place":"Keilor",
+            "Rent":"-"
+         },
+         {  
+            "Place":"Moonee Ponds-Ascot Vale",
+            "Rent":"$410"
+         },
+         {  
+            "Place":"Oak Park-Glenroy-Fawkner",
+            "Rent":"$365"
+         },
+         {  
+            "Place":"Pascoe Vale-Coburg North",
+            "Rent":"$380"
+         },
+         {  
+            "Place":"Sunbury",
+            "Rent":"$325"
+         },
+         {  
+            "Place":"West Brunswick",
+            "Rent":"$390"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$390"
+         },
+         {  
+            "Place":"Bundoora-Greensborough-Hurstbridge",
+            "Rent":"$360"
+         },
+         {  
+            "Place":"Eltham-Research-Montmorency",
+            "Rent":"$380"
+         },
+         {  
+            "Place":"Fairfield-Alphington",
+            "Rent":"$435"
+         },
+         {  
+            "Place":"Heidelberg-Heidelberg West",
+            "Rent":"$400"
+         },
+         {  
+            "Place":"Ivanhoe-Ivanhoe East",
+            "Rent":"$428"
+         },
+         {  
+            "Place":"Mill Park-Epping",
+            "Rent":"$335"
+         },
+         {  
+            "Place":"Northcote",
+            "Rent":"$490"
+         },
+         {  
+            "Place":"Preston",
+            "Rent":"$400"
+         },
+         {  
+            "Place":"Reservoir",
+            "Rent":"$355"
+         },
+         {  
+            "Place":"Thomastown-Lalor",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"Thornbury",
+            "Rent":"$400"
+         },
+         {  
+            "Place":"Whittlesea",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$380"
+         },
+         {  
+            "Place":"Bayswater",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Boronia",
+            "Rent":"$360"
+         },
+         {  
+            "Place":"Croydon-Lilydale",
+            "Rent":"$360"
+         },
+         {  
+            "Place":"Ferntree Gully",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Ringwood",
+            "Rent":"$360"
+         },
+         {  
+            "Place":"Rowville",
+            "Rent":"$375"
+         },
+         {  
+            "Place":"Wantirna-Scoresby",
+            "Rent":"$390"
+         },
+         {  
+            "Place":"Yarra Ranges",
+            "Rent":"$320"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$360"
+         },
+         {  
+            "Place":"Berwick",
+            "Rent":"$337"
+         },
+         {  
+            "Place":"Cranbourne",
+            "Rent":"$310"
+         },
+         {  
+            "Place":"Dandenong",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Dandenong North-Endeavour Hills",
+            "Rent":"$323"
+         },
+         {  
+            "Place":"Narre Warren-Hampton Park",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"Noble Park",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"Pakenham",
+            "Rent":"$295"
+         },
+         {  
+            "Place":"Springvale",
+            "Rent":"$350"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$320"
+         },
+         {  
+            "Place":"Dromana-Portsea",
+            "Rent":"$320"
+         },
+         {  
+            "Place":"Frankston",
+            "Rent":"$320"
+         },
+         {  
+            "Place":"Hastings-Flinders",
+            "Rent":"$320"
+         },
+         {  
+            "Place":"Mt Eliza-Mornington-Mt Martha",
+            "Rent":"$371"
+         },
+         {  
+            "Place":"Seaford-Carrum Downs",
+            "Rent":"$330"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$325"
+         },
+         {  
+            "Place":"Belmont-Grovedale",
+            "Rent":"$310"
+         },
+         {  
+            "Place":"Corio",
+            "Rent":"$280"
+         },
+         {  
+            "Place":"Geelong-Newcombe",
+            "Rent":"$310"
+         },
+         {  
+            "Place":"Herne Hill-Geelong West",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Lara",
+            "Rent":"$290"
+         },
+         {  
+            "Place":"Newtown",
+            "Rent":"$313"
+         },
+         {  
+            "Place":"North Geelong",
+            "Rent":"$310"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$300"
+         },
+         {  
+            "Place":"Ballarat",
+            "Rent":"$255"
+         },
+         {  
+            "Place":"Mount Clear-Buninyong",
+            "Rent":"$240"
+         },
+         {  
+            "Place":"Sebastopol-Delacombe",
+            "Rent":"$240"
+         },
+         {  
+            "Place":"Wendouree-Alfredton",
+            "Rent":"$240"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$245"
+         },
+         {  
+            "Place":"Bendigo",
+            "Rent":"$250"
+         },
+         {  
+            "Place":"Flora Hill-Bendigo East",
+            "Rent":"$250"
+         },
+         {  
+            "Place":"Golden Square-Kangaroo Flat",
+            "Rent":"$260"
+         },
+         {  
+            "Place":"North Bendigo",
+            "Rent":"$260"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$260"
+         },
+         {  
+            "Place":"Bairnsdale",
+            "Rent":"$240"
+         },
+         {  
+            "Place":"Benalla",
+            "Rent":"$213"
+         },
+         {  
+            "Place":"Castlemaine",
+            "Rent":"$290"
+         },
+         {  
+            "Place":"Echuca",
+            "Rent":"$250"
+         },
+         {  
+            "Place":"Hamilton",
+            "Rent":"$200"
+         },
+         {  
+            "Place":"Horsham",
+            "Rent":"$210"
+         },
+         {  
+            "Place":"Mildura",
+            "Rent":"$220"
+         },
+         {  
+            "Place":"Moe-Newborough",
+            "Rent":"$175"
+         },
+         {  
+            "Place":"Morwell",
+            "Rent":"$185"
+         },
+         {  
+            "Place":"Ocean Grove-Barwon Heads",
+            "Rent":"$340"
+         },
+         {  
+            "Place":"Portland",
+            "Rent":"$205"
+         },
+         {  
+            "Place":"Sale-Maffra",
+            "Rent":"$230"
+         },
+         {  
+            "Place":"Seymour",
+            "Rent":"$225"
+         },
+         {  
+            "Place":"Shepparton",
+            "Rent":"$230"
+         },
+         {  
+            "Place":"Swan Hill",
+            "Rent":"$230"
+         },
+         {  
+            "Place":"Torquay",
+            "Rent":"$353"
+         },
+         {  
+            "Place":"Traralgon",
+            "Rent":"$235"
+         },
+         {  
+            "Place":"Wanagaratta",
+            "Rent":"$230"
+         },
+         {  
+            "Place":"Warragul",
+            "Rent":"$270"
+         },
+         {  
+            "Place":"Warrnambool",
+            "Rent":"$250"
+         },
+         {  
+            "Place":"Wodonga",
+            "Rent":"$235"
+         },
+         {  
+            "Place":"Group Total",
+            "Rent":"$230"
+         }]
+}]'
